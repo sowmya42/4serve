@@ -1,0 +1,168 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/rachelalwan/AndroidStudioProjects/4serve/app/src/main/AndroidManifest.xml:2:1-21:12
+INJECTED from /Users/rachelalwan/AndroidStudioProjects/4serve/app/src/main/AndroidManifest.xml:2:1-21:12
+INJECTED from /Users/rachelalwan/AndroidStudioProjects/4serve/app/src/main/AndroidManifest.xml:2:1-21:12
+INJECTED from /Users/rachelalwan/AndroidStudioProjects/4serve/app/src/main/AndroidManifest.xml:2:1-21:12
+MERGED from [com.android.support:design:28.0.0] /Users/rachelalwan/.gradle/caches/transforms-2/files-2.1/222a333d7a16f6ff51a2890b0c4fbce4/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/rachelalwan/.gradle/caches/transforms-2/files-2.1/782a120fcaee2e5aa2cef80aa1d7ae5d/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/rachelalwan/.gradle/caches/transforms-2/files-2.1/e423d199682056065a1206cce5a37eee/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/rachelalwan/.gradle/caches/transforms-2/files-2.1/89237c02dc1ed57c030f0cbd71544637/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/rachelalwan/.gradle/caches/transforms-2/files-2.1/c5097a23de45584660e5a95893334518/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /Users/rachelalwan/.gradle/caches/transforms-2/files-2.1/a66dc3172c6aa76d9ab50126a61a3e85/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/rachelalwan/.gradle/caches/transforms-2/files-2.1/5bdc2a8eebc4f153529ea2bae48ddd41/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/rachelalwan/.gradle/caches/transforms-2/files-2.1/2cbcf79e7c8c5a9be7fc537fcc6850b7/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/rachelalwan/.gradle/caches/transforms-2/files-2.1/b072e55688f35c7a8bfc1ee73473df77/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:28.0.0] /Users/rachelalwan/.gradle/caches/transforms-2/files-2.1/c6ca88af15c6ccd23af39e98e2db33a9/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] /Users/rachelalwan/.gradle/caches/transforms-2/files-2.1/4c52bd4025c9901587e5ecda145ec8b0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] /Users/rachelalwan/.gradle/caches/transforms-2/files-2.1/8fc9f661380c72f3567c38cc9666f610/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/rachelalwan/.gradle/caches/transforms-2/files-2.1/0850c5a05d096b661a2bf329e6170537/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/rachelalwan/.gradle/caches/transforms-2/files-2.1/64c428213e64f02a01bba07c0fcd1699/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/rachelalwan/.gradle/caches/transforms-2/files-2.1/318f637cd4221a9ebce2610bc24fabde/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] /Users/rachelalwan/.gradle/caches/transforms-2/files-2.1/8452670385842a19f07f0ae73c4ff7d4/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/rachelalwan/.gradle/caches/transforms-2/files-2.1/025324a187448c9a209f4a39602aca96/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/rachelalwan/.gradle/caches/transforms-2/files-2.1/9dfcc865d0fbc214b03be713c5b09952/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] /Users/rachelalwan/.gradle/caches/transforms-2/files-2.1/a4fb35731e9c13f96bb203b8e95358c8/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/rachelalwan/.gradle/caches/transforms-2/files-2.1/d6486b49008ee7c0258c44b2a8e1dc90/AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/rachelalwan/.gradle/caches/transforms-2/files-2.1/50a4f9ed5d319e483c7e38bf994834ca/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cardview-v7:28.0.0] /Users/rachelalwan/.gradle/caches/transforms-2/files-2.1/0ca35a0cb3c468229e24ba2e335e417c/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/rachelalwan/.gradle/caches/transforms-2/files-2.1/69ad426635566fc9f347526111962e40/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] /Users/rachelalwan/.gradle/caches/transforms-2/files-2.1/5b20ed8b23a276ab8063629547cb43b1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/rachelalwan/.gradle/caches/transforms-2/files-2.1/9998de2535e95501e02b66a0c77daf21/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] /Users/rachelalwan/.gradle/caches/transforms-2/files-2.1/fca9047cf9f79d4aff9cbee8251ffcb4/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/rachelalwan/.gradle/caches/transforms-2/files-2.1/7fd180914e044862402cb3ff0df9d362/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] /Users/rachelalwan/.gradle/caches/transforms-2/files-2.1/d7fbf80f15711aec8b65652a217b6feb/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/rachelalwan/.gradle/caches/transforms-2/files-2.1/6f01b2284fa43137de090c6185d5ec2d/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/rachelalwan/.gradle/caches/transforms-2/files-2.1/8d234d6b6a9f0473c6d4c064fe3e5d63/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] /Users/rachelalwan/.gradle/caches/transforms-2/files-2.1/03a878f67994f42ac829faff9cfb7d1d/AndroidManifest.xml:17:1-22:12
+INJECTED from /Users/rachelalwan/AndroidStudioProjects/4serve/app/src/main/AndroidManifest.xml:2:1-21:12
+INJECTED from /Users/rachelalwan/AndroidStudioProjects/4serve/app/src/main/AndroidManifest.xml:2:1-21:12
+INJECTED from /Users/rachelalwan/AndroidStudioProjects/4serve/app/src/main/AndroidManifest.xml:2:1-21:12
+	package
+		ADDED from /Users/rachelalwan/AndroidStudioProjects/4serve/app/src/main/AndroidManifest.xml:3:5-34
+		INJECTED from /Users/rachelalwan/AndroidStudioProjects/4serve/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/rachelalwan/AndroidStudioProjects/4serve/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/rachelalwan/AndroidStudioProjects/4serve/app/src/main/AndroidManifest.xml
+		ADDED from /Users/rachelalwan/AndroidStudioProjects/4serve/app/src/main/AndroidManifest.xml:2:1-21:12
+		INJECTED from /Users/rachelalwan/AndroidStudioProjects/4serve/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/rachelalwan/AndroidStudioProjects/4serve/app/src/main/AndroidManifest.xml
+		ADDED from /Users/rachelalwan/AndroidStudioProjects/4serve/app/src/main/AndroidManifest.xml:2:1-21:12
+		INJECTED from /Users/rachelalwan/AndroidStudioProjects/4serve/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/rachelalwan/AndroidStudioProjects/4serve/app/src/main/AndroidManifest.xml:2:11-69
+application
+ADDED from /Users/rachelalwan/AndroidStudioProjects/4serve/app/src/main/AndroidManifest.xml:5:5-19:19
+MERGED from [com.android.support:design:28.0.0] /Users/rachelalwan/.gradle/caches/transforms-2/files-2.1/222a333d7a16f6ff51a2890b0c4fbce4/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design:28.0.0] /Users/rachelalwan/.gradle/caches/transforms-2/files-2.1/222a333d7a16f6ff51a2890b0c4fbce4/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/rachelalwan/.gradle/caches/transforms-2/files-2.1/e423d199682056065a1206cce5a37eee/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/rachelalwan/.gradle/caches/transforms-2/files-2.1/e423d199682056065a1206cce5a37eee/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:support-compat:28.0.0] /Users/rachelalwan/.gradle/caches/transforms-2/files-2.1/a4fb35731e9c13f96bb203b8e95358c8/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] /Users/rachelalwan/.gradle/caches/transforms-2/files-2.1/a4fb35731e9c13f96bb203b8e95358c8/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/rachelalwan/.gradle/caches/transforms-2/files-2.1/d6486b49008ee7c0258c44b2a8e1dc90/AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/rachelalwan/.gradle/caches/transforms-2/files-2.1/d6486b49008ee7c0258c44b2a8e1dc90/AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] /Users/rachelalwan/.gradle/caches/transforms-2/files-2.1/a4fb35731e9c13f96bb203b8e95358c8/AndroidManifest.xml:22:18-91
+	android:supportsRtl
+		ADDED from /Users/rachelalwan/AndroidStudioProjects/4serve/app/src/main/AndroidManifest.xml:10:9-35
+	android:label
+		ADDED from /Users/rachelalwan/AndroidStudioProjects/4serve/app/src/main/AndroidManifest.xml:8:9-41
+	android:roundIcon
+		ADDED from /Users/rachelalwan/AndroidStudioProjects/4serve/app/src/main/AndroidManifest.xml:9:9-54
+	android:icon
+		ADDED from /Users/rachelalwan/AndroidStudioProjects/4serve/app/src/main/AndroidManifest.xml:7:9-43
+	android:allowBackup
+		ADDED from /Users/rachelalwan/AndroidStudioProjects/4serve/app/src/main/AndroidManifest.xml:6:9-35
+	android:theme
+		ADDED from /Users/rachelalwan/AndroidStudioProjects/4serve/app/src/main/AndroidManifest.xml:11:9-40
+activity#com.example.a4serve.MainActivity
+ADDED from /Users/rachelalwan/AndroidStudioProjects/4serve/app/src/main/AndroidManifest.xml:12:9-18:20
+	android:name
+		ADDED from /Users/rachelalwan/AndroidStudioProjects/4serve/app/src/main/AndroidManifest.xml:12:19-47
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/rachelalwan/AndroidStudioProjects/4serve/app/src/main/AndroidManifest.xml:13:13-17:29
+action#android.intent.action.MAIN
+ADDED from /Users/rachelalwan/AndroidStudioProjects/4serve/app/src/main/AndroidManifest.xml:14:17-69
+	android:name
+		ADDED from /Users/rachelalwan/AndroidStudioProjects/4serve/app/src/main/AndroidManifest.xml:14:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/rachelalwan/AndroidStudioProjects/4serve/app/src/main/AndroidManifest.xml:16:17-77
+	android:name
+		ADDED from /Users/rachelalwan/AndroidStudioProjects/4serve/app/src/main/AndroidManifest.xml:16:27-74
+uses-sdk
+INJECTED from /Users/rachelalwan/AndroidStudioProjects/4serve/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/rachelalwan/AndroidStudioProjects/4serve/app/src/main/AndroidManifest.xml
+INJECTED from /Users/rachelalwan/AndroidStudioProjects/4serve/app/src/main/AndroidManifest.xml
+MERGED from [com.android.support:design:28.0.0] /Users/rachelalwan/.gradle/caches/transforms-2/files-2.1/222a333d7a16f6ff51a2890b0c4fbce4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:28.0.0] /Users/rachelalwan/.gradle/caches/transforms-2/files-2.1/222a333d7a16f6ff51a2890b0c4fbce4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/rachelalwan/.gradle/caches/transforms-2/files-2.1/782a120fcaee2e5aa2cef80aa1d7ae5d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/rachelalwan/.gradle/caches/transforms-2/files-2.1/782a120fcaee2e5aa2cef80aa1d7ae5d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/rachelalwan/.gradle/caches/transforms-2/files-2.1/e423d199682056065a1206cce5a37eee/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/rachelalwan/.gradle/caches/transforms-2/files-2.1/e423d199682056065a1206cce5a37eee/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/rachelalwan/.gradle/caches/transforms-2/files-2.1/89237c02dc1ed57c030f0cbd71544637/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/rachelalwan/.gradle/caches/transforms-2/files-2.1/89237c02dc1ed57c030f0cbd71544637/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/rachelalwan/.gradle/caches/transforms-2/files-2.1/c5097a23de45584660e5a95893334518/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/rachelalwan/.gradle/caches/transforms-2/files-2.1/c5097a23de45584660e5a95893334518/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /Users/rachelalwan/.gradle/caches/transforms-2/files-2.1/a66dc3172c6aa76d9ab50126a61a3e85/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /Users/rachelalwan/.gradle/caches/transforms-2/files-2.1/a66dc3172c6aa76d9ab50126a61a3e85/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/rachelalwan/.gradle/caches/transforms-2/files-2.1/5bdc2a8eebc4f153529ea2bae48ddd41/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/rachelalwan/.gradle/caches/transforms-2/files-2.1/5bdc2a8eebc4f153529ea2bae48ddd41/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/rachelalwan/.gradle/caches/transforms-2/files-2.1/2cbcf79e7c8c5a9be7fc537fcc6850b7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/rachelalwan/.gradle/caches/transforms-2/files-2.1/2cbcf79e7c8c5a9be7fc537fcc6850b7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/rachelalwan/.gradle/caches/transforms-2/files-2.1/b072e55688f35c7a8bfc1ee73473df77/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/rachelalwan/.gradle/caches/transforms-2/files-2.1/b072e55688f35c7a8bfc1ee73473df77/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] /Users/rachelalwan/.gradle/caches/transforms-2/files-2.1/c6ca88af15c6ccd23af39e98e2db33a9/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] /Users/rachelalwan/.gradle/caches/transforms-2/files-2.1/c6ca88af15c6ccd23af39e98e2db33a9/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /Users/rachelalwan/.gradle/caches/transforms-2/files-2.1/4c52bd4025c9901587e5ecda145ec8b0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /Users/rachelalwan/.gradle/caches/transforms-2/files-2.1/4c52bd4025c9901587e5ecda145ec8b0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /Users/rachelalwan/.gradle/caches/transforms-2/files-2.1/8fc9f661380c72f3567c38cc9666f610/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /Users/rachelalwan/.gradle/caches/transforms-2/files-2.1/8fc9f661380c72f3567c38cc9666f610/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/rachelalwan/.gradle/caches/transforms-2/files-2.1/0850c5a05d096b661a2bf329e6170537/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/rachelalwan/.gradle/caches/transforms-2/files-2.1/0850c5a05d096b661a2bf329e6170537/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/rachelalwan/.gradle/caches/transforms-2/files-2.1/64c428213e64f02a01bba07c0fcd1699/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/rachelalwan/.gradle/caches/transforms-2/files-2.1/64c428213e64f02a01bba07c0fcd1699/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/rachelalwan/.gradle/caches/transforms-2/files-2.1/318f637cd4221a9ebce2610bc24fabde/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/rachelalwan/.gradle/caches/transforms-2/files-2.1/318f637cd4221a9ebce2610bc24fabde/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /Users/rachelalwan/.gradle/caches/transforms-2/files-2.1/8452670385842a19f07f0ae73c4ff7d4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /Users/rachelalwan/.gradle/caches/transforms-2/files-2.1/8452670385842a19f07f0ae73c4ff7d4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/rachelalwan/.gradle/caches/transforms-2/files-2.1/025324a187448c9a209f4a39602aca96/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/rachelalwan/.gradle/caches/transforms-2/files-2.1/025324a187448c9a209f4a39602aca96/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/rachelalwan/.gradle/caches/transforms-2/files-2.1/9dfcc865d0fbc214b03be713c5b09952/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/rachelalwan/.gradle/caches/transforms-2/files-2.1/9dfcc865d0fbc214b03be713c5b09952/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /Users/rachelalwan/.gradle/caches/transforms-2/files-2.1/a4fb35731e9c13f96bb203b8e95358c8/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /Users/rachelalwan/.gradle/caches/transforms-2/files-2.1/a4fb35731e9c13f96bb203b8e95358c8/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/rachelalwan/.gradle/caches/transforms-2/files-2.1/d6486b49008ee7c0258c44b2a8e1dc90/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/rachelalwan/.gradle/caches/transforms-2/files-2.1/d6486b49008ee7c0258c44b2a8e1dc90/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/rachelalwan/.gradle/caches/transforms-2/files-2.1/50a4f9ed5d319e483c7e38bf994834ca/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/rachelalwan/.gradle/caches/transforms-2/files-2.1/50a4f9ed5d319e483c7e38bf994834ca/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] /Users/rachelalwan/.gradle/caches/transforms-2/files-2.1/0ca35a0cb3c468229e24ba2e335e417c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] /Users/rachelalwan/.gradle/caches/transforms-2/files-2.1/0ca35a0cb3c468229e24ba2e335e417c/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/rachelalwan/.gradle/caches/transforms-2/files-2.1/69ad426635566fc9f347526111962e40/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/rachelalwan/.gradle/caches/transforms-2/files-2.1/69ad426635566fc9f347526111962e40/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /Users/rachelalwan/.gradle/caches/transforms-2/files-2.1/5b20ed8b23a276ab8063629547cb43b1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /Users/rachelalwan/.gradle/caches/transforms-2/files-2.1/5b20ed8b23a276ab8063629547cb43b1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/rachelalwan/.gradle/caches/transforms-2/files-2.1/9998de2535e95501e02b66a0c77daf21/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/rachelalwan/.gradle/caches/transforms-2/files-2.1/9998de2535e95501e02b66a0c77daf21/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /Users/rachelalwan/.gradle/caches/transforms-2/files-2.1/fca9047cf9f79d4aff9cbee8251ffcb4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /Users/rachelalwan/.gradle/caches/transforms-2/files-2.1/fca9047cf9f79d4aff9cbee8251ffcb4/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/rachelalwan/.gradle/caches/transforms-2/files-2.1/7fd180914e044862402cb3ff0df9d362/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/rachelalwan/.gradle/caches/transforms-2/files-2.1/7fd180914e044862402cb3ff0df9d362/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /Users/rachelalwan/.gradle/caches/transforms-2/files-2.1/d7fbf80f15711aec8b65652a217b6feb/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /Users/rachelalwan/.gradle/caches/transforms-2/files-2.1/d7fbf80f15711aec8b65652a217b6feb/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/rachelalwan/.gradle/caches/transforms-2/files-2.1/6f01b2284fa43137de090c6185d5ec2d/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/rachelalwan/.gradle/caches/transforms-2/files-2.1/6f01b2284fa43137de090c6185d5ec2d/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/rachelalwan/.gradle/caches/transforms-2/files-2.1/8d234d6b6a9f0473c6d4c064fe3e5d63/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/rachelalwan/.gradle/caches/transforms-2/files-2.1/8d234d6b6a9f0473c6d4c064fe3e5d63/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /Users/rachelalwan/.gradle/caches/transforms-2/files-2.1/03a878f67994f42ac829faff9cfb7d1d/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /Users/rachelalwan/.gradle/caches/transforms-2/files-2.1/03a878f67994f42ac829faff9cfb7d1d/AndroidManifest.xml:20:5-44
+INJECTED from /Users/rachelalwan/AndroidStudioProjects/4serve/app/src/main/AndroidManifest.xml
+INJECTED from /Users/rachelalwan/AndroidStudioProjects/4serve/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/rachelalwan/AndroidStudioProjects/4serve/app/src/main/AndroidManifest.xml
+		ADDED from /Users/rachelalwan/AndroidStudioProjects/4serve/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/rachelalwan/AndroidStudioProjects/4serve/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/rachelalwan/AndroidStudioProjects/4serve/app/src/main/AndroidManifest.xml
+		ADDED from /Users/rachelalwan/AndroidStudioProjects/4serve/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/rachelalwan/AndroidStudioProjects/4serve/app/src/main/AndroidManifest.xml
