@@ -22,24 +22,11 @@ public class Profile extends RealmObject {
         this.password = password;
     }
 
-    public void signUpUser() {
-        Realm realm = Realm.getDefaultInstance();
-        realm.beginTransaction();
-
-        Profile profile = realm.createObject(Profile.class, UUID.randomUUID().toString());
-
-        profile.setName(name);
-        profile.setPassword(password);
-
-        realm.commitTransaction();
-        realm.close();
-    }
-
     public boolean logInUser(final String enteredName, String enteredPass) {
         Realm realm = Realm.getDefaultInstance();
         Profile person = realm.where(Profile.class).equalTo("name", enteredName).findFirst();
 
-        if(person.equals(null)) {
+        if(person == null) {
             return false;
         }
 

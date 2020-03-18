@@ -7,6 +7,10 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 
+import java.util.UUID;
+
+import io.realm.Realm;
+
 public class SignUp extends AppCompatActivity {
     private EditText etName;
     private EditText etPass;
@@ -24,13 +28,24 @@ public class SignUp extends AppCompatActivity {
         btnSignUp.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Profile profile = new Profile(etName.getText().toString(), etPass.getText().toString());
-                profile.signUpUser();
+                signUpUser();
 
                 Intent intent = new Intent(SignUp.this, MainActivity.class);
                 startActivity(intent);
                 finish();
             }
         });
+    }
+
+    public void signUpUser() {
+        Realm realm = Realm.getDefaultInstance();
+        realm.beginTransaction();
+
+        Profile profile = new Profile(etName.getText().toString(), etPass.getText().toString());
+
+        realm.insert(profile);
+
+        realm.commitTransaction();
+        realm.close();
     }
 }
