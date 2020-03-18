@@ -19,7 +19,7 @@ public class HomeFragment extends Fragment {
         MyAdapter listAdapter = new MyAdapter();
         Events[] fullList = listAdapter.getList();
         EventsList newList = new EventsList(5);
-        for (int i = 0; i <= fullList.length; i++) {
+        for (int i = 0; i < fullList.length; i++) {
 
             if (fullList[i].getFollow()) {
                 newList.addEvents(fullList[i]);
