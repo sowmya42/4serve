@@ -1,4 +1,0 @@
-#Wed Mar 18 11:54:17 PDT 2020
-base.0=/Users/rachelalwan/AndroidStudioProjects/4serve/app/build/intermediates/transforms/dexMerger/debug/0
-path.0=classes.dex
-renamed.0=classes.dex
