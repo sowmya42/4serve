@@ -19,7 +19,7 @@
         android:src="@drawable/ic_explore_black_24dp"
         />
     <TextView
-        android:id="@+id/text"
+        android:id="@+id/text_wi"
         android:layout_height="wrap_content"
         android:layout_width="wrap_content"
         android:layout_margin="10dp"
