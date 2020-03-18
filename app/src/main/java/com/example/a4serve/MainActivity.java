@@ -28,11 +28,11 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_login);
 
         Realm.init(this);
-
-        logIn = (Button)findViewById(R.id.logIn);
-        etName = (EditText)findViewById(R.id.username);
-        etPass = (EditText)findViewById(R.id.password);
-        signUp = (TextView)findViewById(R.id.signUp);
+//
+//        logIn = (Button)findViewById(R.id.logIn);
+//        etName = (EditText)findViewById(R.id.username);
+//        etPass = (EditText)findViewById(R.id.password);
+//        signUp = (TextView)findViewById(R.id.signUp);
 
         logIn.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -62,8 +62,8 @@ public class MainActivity extends AppCompatActivity {
             BottomNavigationView bottomNav = findViewById(R.id.bottom_navigation);
             bottomNav.setOnNavigationItemSelectedListener(navListener);
         } else {
-            TextView tv = (TextView)findViewById(R.id.errorMessage);
-            tv.setText("Oops! Wrong username or password.");
+//            TextView tv = (TextView)findViewById(R.id.errorMessage);
+//            tv.setText("Oops! Wrong username or password.");
             passTries--;
 
             if(passTries <= 0) {
@@ -73,28 +73,27 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private BottomNavigationView.OnNavigationItemSelectedListener navListener =
-            new BottomNavigationView.OnNavigationItemSelectedListener() {
-                @Override
-                public boolean onNavigationItemSelected(@NonNull MenuItem item) {
-                    Fragment selectedFragment = null;
+        new BottomNavigationView.OnNavigationItemSelectedListener() {
+            @Override
+            public boolean onNavigationItemSelected(@NonNull MenuItem item) {
+                Fragment selectedFragment = null;
 
-                    switch(item.getItemId()) {
-                        case R.id.nav_home:
-                            selectedFragment = new HomeFragment();
-                            break;
-                        case R.id.nav_explore:
-                            selectedFragment = new ExploreFragment();
-                            break;
-                        case R.id.nav_profile:
-                            selectedFragment = new ProfileFragment();
-                            break;
-
-                    }
-
-                    getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,
-                            selectedFragment).commit();
-
-                    return true;
+                switch(item.getItemId()) {
+                    case R.id.nav_home:
+                        selectedFragment = new HomeFragment();
+                        break;
+                    case R.id.nav_explore:
+                        selectedFragment = new ExploreFragment();
+                        break;
+                    case R.id.nav_profile:
+                        selectedFragment = new ProfileFragment();
+                        break;
                 }
-            };
+
+                getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,
+                selectedFragment).commit();
+
+                return true;
+            }
+        };
 }

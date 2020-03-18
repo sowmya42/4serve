@@ -1,10 +1,13 @@
 package com.example.a4serve;
 
-public class Events {
-    private static String  name;
-    private static int date;
-    private static int img;
-    private static boolean follow;
+import io.realm.Realm;
+import io.realm.RealmObject;
+
+public class Events extends RealmObject {
+    private String  name;
+    private int date;
+    private int img;
+    private boolean follow;
     public Events(String n, int d, int p){
         name = n;
         date = d;
@@ -12,15 +15,19 @@ public class Events {
         follow = false;
     }
 
-    public static int getImg(){
+    public Events(){
+
+    }
+
+    public int getImg(){
         return img;
     }
-    public static int getDate(){
+    public int getDate(){
         return date;
     }
-    public static String name(){
+    public String name(){
         return name;
     }
-    public static boolean getFollow() { return follow;}
-    public static boolean switchFollow() {follow = (!follow); return follow;}
+    public boolean getFollow() { return follow;}
+    public boolean switchFollow() {follow = (!follow); return follow;}
 }

@@ -5,12 +5,15 @@ import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 
 import org.w3c.dom.Text;
 
 import java.util.List;
+
+import io.realm.Realm;
 
 public class MyAdapter extends RecyclerView.Adapter {
     EventsList eventsList = new EventsList(10);
@@ -29,11 +32,11 @@ public class MyAdapter extends RecyclerView.Adapter {
     @Override
     public int getItemCount() {
 
-        return eventsList.getList().length;
+        return EventsList.getList().length;
     }
 
     public Events[] getList() {
-        return eventsList.getList();
+        return EventsList.getList();
     }
 
     public void setList(EventsList events) {
@@ -43,17 +46,35 @@ public class MyAdapter extends RecyclerView.Adapter {
     private class ListViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener{
         private TextView mItemText;
         private ImageView itemImage;
+        private Button button;
 
         public ListViewHolder(View itemView){
             super(itemView);
             mItemText = (TextView) itemView.findViewById(R.id.text_wi);
             itemImage = (ImageView) itemView.findViewById(R.id.im_view);
+            button = (Button) itemView.findViewById(R.id.follow_button);
             itemView.setOnClickListener(this);
         }
 
         public void bindView(int position){
-            mItemText.setText(EventsList.getList()[position].name());
-            itemImage.setImageResource(EventsList.getList()[position].getImg());
+            final Events x = EventsList.getList()[position];
+            mItemText.setText(x.name());
+            itemImage.setImageResource(x.getImg());
+            if(x.getFollow()) {
+                button.setText("Unfollow");
+            }
+
+            button.setOnClickListener(new View.OnClickListener(){
+                @Override
+                public void onClick(View v){
+                    Realm realm = Realm.getDefaultInstance();
+                    realm.beginTransaction();
+                    x.switchFollow();
+                    button.setText("Hehe");
+                    realm.commitTransaction();
+                    realm.close();
+                }
+            });
         }
 
         public void onClick(View view){
