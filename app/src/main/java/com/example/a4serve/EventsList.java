@@ -6,10 +6,10 @@ public class EventsList {
         list = new Events[num];
         for(int i=0; i<num; i++){
             list[i] = new Events("Event", 03172020, R.drawable.ic_person_black_24dp);
-            if (i%2 == 0)
-            {
-                list[i].switchFollow();
-            }
+//            if (i%2 == 0)
+//            {
+//                list[i].switchFollow();
+//            }
         }
 
     }
