@@ -13,7 +13,7 @@ import org.w3c.dom.Text;
 import java.util.List;
 
 public class MyAdapter extends RecyclerView.Adapter {
-    EventsList eventsList = new EventsList(0);
+    EventsList eventsList = new EventsList(10);
     @NonNull
     @Override
     public RecyclerView.ViewHolder onCreateViewHolder(@NonNull ViewGroup viewGroup, int i) {
@@ -30,6 +30,14 @@ public class MyAdapter extends RecyclerView.Adapter {
     public int getItemCount() {
 
         return eventsList.getList().length;
+    }
+
+    public Events[] getList() {
+        return eventsList.getList();
+    }
+
+    public void setList(EventsList events) {
+        eventsList = events;
     }
 
     private class ListViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener{
