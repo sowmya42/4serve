@@ -8,6 +8,10 @@
         "source": "C:\\Users\\sowmy\\Documents\\Coding\\4serve\\app\\src\\main\\res\\layout\\events.xml"
     },
     {
+        "merged": "C:\\Users\\sowmy\\Documents\\Coding\\4serve\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_sign_up.xml.flat",
+        "source": "C:\\Users\\sowmy\\Documents\\Coding\\4serve\\app\\src\\main\\res\\layout\\activity_sign_up.xml"
+    },
+    {
         "merged": "C:\\Users\\sowmy\\Documents\\Coding\\4serve\\app\\build\\intermediates\\res\\merged\\debug\\layout_home.xml.flat",
         "source": "C:\\Users\\sowmy\\Documents\\Coding\\4serve\\app\\src\\main\\res\\layout\\home.xml"
     },
@@ -60,12 +64,20 @@
         "source": "C:\\Users\\sowmy\\Documents\\Coding\\4serve\\app\\src\\main\\res\\layout\\search.xml"
     },
     {
+        "merged": "C:\\Users\\sowmy\\Documents\\Coding\\4serve\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_login.xml.flat",
+        "source": "C:\\Users\\sowmy\\Documents\\Coding\\4serve\\app\\src\\main\\res\\layout\\activity_login.xml"
+    },
+    {
         "merged": "C:\\Users\\sowmy\\Documents\\Coding\\4serve\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
         "source": "C:\\Users\\sowmy\\Documents\\Coding\\4serve\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
     },
     {
         "merged": "C:\\Users\\sowmy\\Documents\\Coding\\4serve\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
         "source": "C:\\Users\\sowmy\\Documents\\Coding\\4serve\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\sowmy\\Documents\\Coding\\4serve\\app\\build\\intermediates\\res\\merged\\debug\\layout-v26_activity_login.xml.flat",
+        "source": "C:\\Users\\sowmy\\Documents\\Coding\\4serve\\app\\src\\main\\res\\layout-v26\\activity_login.xml"
     },
     {
         "merged": "C:\\Users\\sowmy\\Documents\\Coding\\4serve\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
