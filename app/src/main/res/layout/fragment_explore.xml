@@ -9,12 +9,11 @@
     <!-- A CardView that contains a TextView -->
     <android.support.v7.widget.RecyclerView
         android:id="@+id/listRecyclerView"
-        tools:listitem="@layout/events"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_margin="10dp"/>
 
 
 </RelativeLayout>
-
+    <!--tools:listitem="@layout/events"-->
 <!--</RelativeLayout>-->
