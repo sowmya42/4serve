@@ -3,9 +3,13 @@ package com.example.a4serve;
 public class EventsList {
     private static Events[] list;
     public EventsList(int num){
-        list = new Events[10];
-        for(int i=0; i<10; i++){
+        list = new Events[num];
+        for(int i=0; i<num; i++){
             list[i] = new Events("Event", 03172020, R.drawable.ic_person_black_24dp);
+            if (i%2 == 0)
+            {
+                list[i].switchFollow();
+            }
         }
 
     }
