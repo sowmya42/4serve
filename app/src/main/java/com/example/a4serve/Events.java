@@ -19,6 +19,18 @@ public class Events extends RealmObject{
 
     }
 
+    public void storeEvents() {
+        Realm realm = Realm.getDefaultInstance();
+        realm.beginTransaction();
+
+        Events events = new Events(name, date, img);
+
+        realm.insert(events);
+
+        realm.commitTransaction();
+        realm.close();
+    }
+
     public int getImg(){
         return img;
     }

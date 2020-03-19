@@ -58,6 +58,7 @@ public class MyAdapter extends RecyclerView.Adapter {
 
         public void bindView(int position){
             final Events x = EventsList.getList()[position];
+            x.storeEvents();
             mItemText.setText(x.name());
             itemImage.setImageResource(x.getImg());
             if(x.getFollow()) {
