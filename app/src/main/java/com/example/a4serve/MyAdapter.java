@@ -11,16 +11,22 @@ import android.widget.TextView;
 
 import org.w3c.dom.Text;
 
+import java.util.ArrayList;
 import java.util.List;
 
 import io.realm.Realm;
+import io.realm.RealmList;
+import io.realm.RealmResults;
 
 public class MyAdapter extends RecyclerView.Adapter {
-    EventsList eventsList = new EventsList(10);
+    Realm realm = Realm.getDefaultInstance();
+    RealmResults<Events> realmList = realm.where(Events.class).findAll();
+    private ArrayList<Events> eventslist = new ArrayList<Events>();
     @NonNull
     @Override
     public RecyclerView.ViewHolder onCreateViewHolder(@NonNull ViewGroup viewGroup, int i) {
         View view = LayoutInflater.from(viewGroup.getContext()).inflate(R.layout.events, viewGroup,false);
+        eventslist.addAll(realmList);
         return new ListViewHolder(view);
     }
 
@@ -32,15 +38,15 @@ public class MyAdapter extends RecyclerView.Adapter {
     @Override
     public int getItemCount() {
 
-        return EventsList.getList().length;
+        return eventslist.size();
     }
 
-    public Events[] getList() {
-        return EventsList.getList();
+    public ArrayList<Events> getList() {
+        return eventslist;
     }
 
-    public void setList(EventsList events) {
-        eventsList = events;
+    public void setList(ArrayList<Events> events) {
+        eventslist = events;
     }
 
     private class ListViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener{
@@ -55,29 +61,32 @@ public class MyAdapter extends RecyclerView.Adapter {
             button = (Button) itemView.findViewById(R.id.follow_button);
             itemView.setOnClickListener(this);
         }
-
         public void bindView(int position){
-            final Events x = EventsList.getList()[position];
+
+            final Events x = eventslist.get(position);
             x.storeEvents();
             mItemText.setText(x.name());
             itemImage.setImageResource(x.getImg());
             if(x.getFollow()) {
                 button.setText("Unfollow");
             }
-
             button.setOnClickListener(new View.OnClickListener(){
                 @Override
                 public void onClick(View v){
                     Realm realm = Realm.getDefaultInstance();
                     realm.beginTransaction();
                     x.switchFollow();
-                    button.setText("Hehe");
+                    if(x.getFollow()){
+                        button.setText("Unfollow");
+                    }
+                    else{
+                        button.setText("+Follow");
+                    }
                     realm.commitTransaction();
                     realm.close();
                 }
             });
         }
-
         public void onClick(View view){
 
         }

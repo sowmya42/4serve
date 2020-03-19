@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_login);
 
         Realm.init(this);
-
+        new EventsList();
         logIn = (Button)findViewById(R.id.logIn);
         etName = (EditText)findViewById(R.id.username);
         etPass = (EditText)findViewById(R.id.password);

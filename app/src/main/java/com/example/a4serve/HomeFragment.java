@@ -10,6 +10,9 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class HomeFragment extends Fragment {
     @Nullable
     @Override
@@ -17,12 +20,12 @@ public class HomeFragment extends Fragment {
         View view = inflater.inflate(R.layout.fragment_home, container, false);
         RecyclerView recyclerView = (RecyclerView) view.findViewById(R.id.listRecyclerView);
         MyAdapter listAdapter = new MyAdapter();
-        Events[] fullList = listAdapter.getList();
-        EventsList newList = new EventsList(5);
-        for (int i = 0; i < fullList.length; i++) {
+        ArrayList<Events> fullList = listAdapter.getList();
+        ArrayList<Events> newList = new ArrayList<Events>();
+        for (int i = 0; i < fullList.size(); i++) {
 
-            if (fullList[i].getFollow()) {
-                newList.addEvents(fullList[i]);
+            if (fullList.get(i).getFollow()) {
+                newList.add(fullList.get(i));
             }
         }
         listAdapter.setList(newList);
