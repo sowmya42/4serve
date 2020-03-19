@@ -1,13 +1,264 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
-    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relativeLayout"
+    android:layout_width="match_parent"
     android:layout_height="match_parent">
-    
+
     <TextView
+        android:id="@+id/shownUsername"
+        android:layout_width="187dp"
+        android:layout_height="82dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="144dp"
+        android:layout_marginTop="83dp"
+        android:layout_marginEnd="107dp"
+        android:text="\@johnsmith"
+        android:textColor="@color/black"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/shownName2"
+        android:layout_width="159dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="148dp"
+        android:layout_marginTop="140dp"
+        android:layout_marginEnd="104dp"
+        android:text="John Smith"
+        android:textColor="@color/black"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/divider5"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="-4dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginBottom="454dp"
+        android:background="@color/cardview_shadow_start_color" />
+
+    <TextView
+        android:id="@+id/divider4"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="-3dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="597dp"
+        android:background="@color/cardview_shadow_start_color" />
+
+    <TextView
+        android:id="@+id/divider2"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="-6dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginBottom="84dp"
+        android:background="@color/cardview_shadow_start_color" />
+
+    <EditText
+        android:id="@+id/post2"
+        android:layout_width="match_parent"
+        android:layout_height="97dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="85dp"
+        android:background="@color/cardview_light_background"
+        android:ems="10"
+        android:gravity="start|top"
+        android:inputType="textMultiLine"
+        android:text="Come check out the tents at the Kirkland Waterfront! I am collecting signatures for bill initiative x and I would really appreciate the support\n03/01/20 1:11 PM"
+        app:layout_constraintVertical_bias="0.838" />
+
+    <EditText
+        android:id="@+id/post1"
+        android:layout_width="match_parent"
+        android:layout_height="122dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="331dp"
+        android:background="@color/cardview_light_background"
+        android:ems="10"
+        android:gravity="start|top"
+        android:inputType="textMultiLine"
+        android:text="Just volunteered at the Puppy Daycare for 2 hours. Puppy Daycare is looking for other volunteers who are willing to come in after school.\n03/18/20 6:31 PM"
+        app:layout_constraintBottom_toTopOf="@+id/post2"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <EditText
+        android:id="@+id/joinedPost1"
+        android:layout_width="412dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="-1dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="25dp"
+        android:background="@color/cardview_light_background"
+        android:ems="10"
+        android:gravity="start|top"
+        android:inputType="textMultiLine"
+        android:text="John joined the Washington Environment Council." />
+
+    <EditText
+        android:id="@+id/joinedPost2"
+        android:layout_width="412dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="703dp"
+        android:layout_marginEnd="6dp"
+        android:layout_marginBottom="4dp"
+        android:background="@color/cardview_light_background"
+        android:ems="10"
+        android:gravity="start|top"
+        android:inputType="textMultiLine"
+        android:text="Congratulate him!"
+        android:textColor="@color/colorPrimary" />
+
+    <ImageView
+        android:id="@+id/profilePhoto"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Profile Fragment"
-        android:textSize="30sp"
-        android:layout_centerInParent="true"/>
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="13dp"
+        android:layout_marginEnd="256dp"
+        android:layout_marginBottom="462dp"
+        android:visibility="visible"
+        tools:src="@tools:sample/avatars[12]" />
+
+    <ImageView
+        android:id="@+id/medalIcon"
+        android:layout_width="23dp"
+        android:layout_height="24dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="241dp"
+        android:layout_marginBottom="495dp"
+        android:visibility="visible"
+        app:srcCompat="@drawable/medal" />
+
+    <ImageView
+        android:id="@+id/organizationIcon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="148dp"
+        android:layout_marginTop="246dp"
+        android:layout_marginEnd="216dp"
+        android:layout_marginBottom="461dp"
+        app:srcCompat="@drawable/organization" />
+
+    <ImageView
+        android:id="@+id/hoursIcon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="183dp"
+        android:layout_marginEnd="242dp"
+        app:srcCompat="@drawable/ic_arrow_drop_up_black_24dp"
+        tools:layout_editor_absoluteY="211dp" />
+
+    <ImageView
+        android:id="@+id/heartImage"
+        android:layout_width="59dp"
+        android:layout_height="41dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="170dp"
+        android:layout_marginEnd="182dp"
+        android:layout_marginBottom="42dp"
+        app:srcCompat="@drawable/ic_favorite_border_black_24dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="235dp"
+        android:layout_height="158dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="84dp"
+        android:layout_marginTop="388dp"
+        android:cropToPadding="true"
+        app:srcCompat="@drawable/img" />
+
+    <TextView
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="-1dp"
+        android:layout_marginEnd="-1dp"
+        android:layout_marginBottom="347dp"
+        android:background="@color/cardview_shadow_start_color" />
+
+    <TextView
+        android:id="@+id/tvMedals"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="215dp"
+        android:layout_marginEnd="176dp"
+        android:text="7 medals" />
+
+    <TextView
+        android:id="@+id/tvOrganizations"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="248dp"
+        android:layout_marginEnd="137dp"
+        android:layout_marginBottom="464dp"
+        android:text="5 organizations" />
+
+    <TextView
+        android:id="@+id/tvHours"
+        android:layout_width="66dp"
+        android:layout_height="42dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="156dp"
+        android:layout_marginEnd="92dp"
+        android:layout_marginBottom="505dp"
+        android:text="5 hours" />
 
 </RelativeLayout>
