@@ -19,7 +19,7 @@ public class HomeFragment extends Fragment {
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_home, container, false);
         RecyclerView recyclerView = (RecyclerView) view.findViewById(R.id.listRecyclerView);
-        MyAdapter listAdapter = new MyAdapter();
+        MyAdapterHome listAdapter = new MyAdapterHome();
         ArrayList<Events> fullList = listAdapter.getList();
         ArrayList<Events> newList = new ArrayList<Events>();
         for (int i = 0; i < fullList.size(); i++) {

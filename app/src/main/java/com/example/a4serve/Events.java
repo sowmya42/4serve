@@ -43,12 +43,10 @@ public class Events extends RealmObject{
         realm.close();
     }
 
-    public void storeEvents(Events e){
+    public static void storeEvents(Events e){
         Realm realm = Realm.getDefaultInstance();
         realm.beginTransaction();
-
-        realm.insert(e);
-
+        realm.copyToRealm(e);
         realm.commitTransaction();
         realm.close();
     }

@@ -23,7 +23,7 @@ public class EventsList {
         list[9] = new Events("Ten", 03022020, R.drawable.watermelon);
 
         for(int i=0; i<10; i++){
-            list[i].storeEvents(list[i]);
+            Events.storeEvents(list[i]);
         }
     }
 

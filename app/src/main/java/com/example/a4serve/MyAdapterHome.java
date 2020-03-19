@@ -9,48 +9,42 @@ import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import org.w3c.dom.Text;
-
 import java.util.ArrayList;
-import java.util.List;
 
 import io.realm.Realm;
-import io.realm.RealmList;
 import io.realm.RealmResults;
 
-public class MyAdapter extends RecyclerView.Adapter {
+public class MyAdapterHome extends RecyclerView.Adapter{
     private Realm realm = Realm.getDefaultInstance();
-    private static EventsList ev = new EventsList();
-    RealmResults<Events> realmList = realm.where(Events.class).findAll();
-    private static ArrayList<Events> eventslist = new ArrayList<Events>();
+    private RealmResults<Events> realmList = realm.where(Events.class).findAll();
+    private ArrayList<Events> eventsList = new ArrayList<Events>();
     @NonNull
     @Override
     public RecyclerView.ViewHolder onCreateViewHolder(@NonNull ViewGroup viewGroup, int i) {
         View view = LayoutInflater.from(viewGroup.getContext()).inflate(R.layout.events, viewGroup,false);
-        eventslist.addAll(realmList);
-        return new ListViewHolder(view);
+        eventsList.addAll(realmList);
+        return new MyAdapterHome.ListViewHolder(view);
     }
 
     @Override
     public void onBindViewHolder(@NonNull RecyclerView.ViewHolder viewHolder, int i) {
-        ((ListViewHolder) viewHolder).bindView(i);
+        ((MyAdapterHome.ListViewHolder) viewHolder).bindView(i);
     }
 
     @Override
     public int getItemCount() {
-
-        return eventslist.size();
+        return realmList.size();
     }
 
     public ArrayList<Events> getList() {
-        return eventslist;
+        return eventsList;
     }
 
     public void setList(ArrayList<Events> events) {
-        eventslist = events;
+        eventsList = events;
     }
 
-    class ListViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener{
+    private class ListViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener{
         private TextView mItemText;
         private ImageView itemImage;
         private Button button;
@@ -65,26 +59,28 @@ public class MyAdapter extends RecyclerView.Adapter {
         public void bindView(int position){
 
             final Events x = realmList.get(position);
-            mItemText.setText(x.name());
-            itemImage.setImageResource(x.getImg());
-            itemView.setVisibility(View.VISIBLE);
             if(x.getFollow()) {
+                mItemText.setText(x.name());
+                itemImage.setImageResource(x.getImg());
                 button.setText("Unfollow");
+            }
+            else{
+                itemView.setVisibility(View.GONE);
             }
             button.setOnClickListener(new View.OnClickListener(){
                 @Override
                 public void onClick(View v){
-                    Realm realm = Realm.getDefaultInstance();
-                    realm.beginTransaction();
-                    x.switchFollow();
-                    if(x.getFollow()){
-                        button.setText("Unfollow");
-                    }
-                    else{
-                        button.setText("+Follow");
-                    }
-                    realm.insertOrUpdate(x);
-                    realm.close();
+                Realm realm = Realm.getDefaultInstance();
+                realm.beginTransaction();
+                x.switchFollow();
+                if(x.getFollow()){
+                    button.setText("Unfollow");
+                }
+                else{
+                    button.setText("+Follow");
+                }
+                realm.insertOrUpdate(x);
+                realm.close();
                 }
             });
         }
